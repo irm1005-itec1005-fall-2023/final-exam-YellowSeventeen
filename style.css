@@ -231,9 +231,43 @@ footer .logo-light {
   width: 60px;
   margin: 1px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   /* I'm sorry I struggled too much with the normal stuff */
   /* I just couldn't get the grid to grid */
+  main .colourfulGrid ul {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    font-size: 13px;
+  }
+  main .colourfulGrid li {
+    padding: 10px;
+    border-radius: 10px;
+    padding-top: 39px;
+  }
+  main .colourfulGrid .WD {
+    
+    background-color: rgb(243, 243, 106);
+  }
+  main .colourfulGrid .JS {
+    
+    background-color: rgb(243, 243, 106);
+  }
+  main .colourfulGrid .HT {
+    
+    background-color: rgb(224, 92, 224);
+  }
+  main .colourfulGrid .GH {
+    
+    background-color: rgb(89, 232, 185);
+  }
+  main .colourfulGrid .UU {
+    background-color: rgb(89, 232, 185);
+  }
+  main .colourfulGrid .CSS {
+    background-color: rgb(232, 149, 89);
+  }
 }
 /*
  * SR-ONLY
