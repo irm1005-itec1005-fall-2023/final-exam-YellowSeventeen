@@ -268,7 +268,28 @@ footer .logo-light {
   main .colourfulGrid .CSS {
     background-color: rgb(232, 149, 89);
   }
+  main .AmyBio {
+    justify-content: center;
+  }
+  main .AmyBio h2 {
+  }
+  main .AmyBio .AmyText {
+  font-size: 100%;
+  }
   
+  main .AmyBio .AmyPicHolder .AmyPic {
+    border-radius: 20px;
+  }
+  main .AmyBio .Cont {
+    font-size: 75%;
+
+    border: 2px solid #fda3ee;
+    background-color: #fda3ee;
+    color: #000;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 40px;
+  }
 }
 /*
  * SR-ONLY
